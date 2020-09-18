@@ -1,0 +1,641 @@
+body {
+  color: #63768d;
+  font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; 
+  height: 100%;
+  line-height: 1.15;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  box-shadow: 0 5px 30px 15px whitesmoke;
+}
+
+/* navbar */
+.container {
+  display: flex;
+  background-color: #141618;
+}
+
+.navigation {
+  max-width: 85rem;
+  background-color: #151618;
+  width: 100%;
+}
+
+.line {
+  display: flex;
+  align-items: baseline;
+  align-content: space-around;
+  height: 105px;
+}
+
+.egg {
+  position: absolute;
+  left: 20px;
+}
+
+.egghead {
+  position: absolute;
+  color: white;
+  text-shadow: 1px 1px white;
+  left: 45px;
+  top: 14px;
+}
+
+.topics {
+  position: absolute;
+  color: #908780;
+  left: 200px;
+  top: 14px;
+}
+
+.searchc {
+  position: absolute;
+  color: #908780;
+  left: 350px;
+  top: 14px;
+}
+
+.sign {
+  position: absolute;
+  color: #908780;
+  right: 40px;
+  top: 14px;
+}
+
+#search {
+  display: flex;
+  align-self: center;
+  position: absolute;
+  color: white;
+  background-color: #212328;
+  border: none;
+  border-radius: 5px;
+  width: 973px;px;
+  height: 48px;
+  padding-left: 5px;
+  left: 28px;
+  top: 50px;
+}
+
+.placeholder {
+  color: #908780;
+}
+.button_search {
+  position: absolute;
+  background-color: #212328;
+  border: none;
+  border-radius: 5px;
+  width: 48px;
+  height: 48px;
+  right: 31px;
+  top: 50px;
+}
+
+.recherche {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+}
+
+/* accueil */
+#accueil {
+  display: flex;
+  background-color: #1e2633;
+  width: auto;
+  height: 550px;
+}
+
+#accueil h1 {
+  position: absolute;
+  justify-content: space-around;
+  color: white;
+  font-size: 38px;
+  left: 50px;
+  top: 170px;
+}
+
+#accueil h2 {
+  position: absolute;
+  justify-content: space-around;
+  color: #a59f9e;
+  font-size: 22px;
+  left: 50px;
+  top: 320px;
+}
+
+.aws {
+  position: relative;
+  flex-shrink: 2;
+  justify-content: space-around;
+  width: 390px;
+  height: 390px;
+  left: 600px;
+  top: 100px;
+}
+
+#click {
+  position: absolute;
+  color: white;
+  background-color: #175ce0;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+  margin: 70px;
+  top: 400px;
+}
+
+#corps {
+  background-color: #fff;
+  height: 2000px;
+}
+
+h1 {
+  position: absolute;
+  color: black;
+  font-size: 38px;
+  left: 50px;
+  top: 700px;
+}
+
+h2 {
+  position: absolute;
+  color: #a59f9e;
+  font-size: 22px;
+  left: 50px;
+  top: 760px;
+}
+
+#browse {
+  position: absolute;
+  color: white;
+  background-color: #175ce0;
+  border: none;
+  border-radius: 5px;
+  width: 180px;
+  height: 50px;
+  right: 45px;
+  top: 750px;
+}
+
+#coursereact {
+  display: block;
+  background-color: white;
+  text-align: center;
+  box-shadow: -30px 30px -30px 30px rgb(0,.2,0,.2);
+}
+
+.react {
+  position: absolute;
+  color: #a59f9e;
+  width: 200px;
+  height: 200px;
+  left: 90px;
+  top: 960px;
+}
+
+.react1 {
+  position: absolute;
+  font-size: 10px;
+  color: #a59f9e;
+  left: 130px;
+  top: 1190px;
+}
+
+.maps {
+  position:absolute;
+  font-size: 20px;
+  color: black;
+  left: 70px;
+  top: 1200px;
+}
+
+.user {
+    position: absolute;
+    width: 25px;
+    border-radius: 50%;
+    left: 70px;
+    top: 1300px;
+}
+
+#coursereact h3 {
+  position: absolute;
+  color: black;
+  font-size: small;
+  font-weight: normal;
+  left: 110px;
+  top: 1285px;
+}
+
+#coursereact h4 {
+  position: absolute;
+  color: #a59f9e;
+  font-size: x-small;
+  font-weight: normal;
+  left: 110px;
+  top: 1300px;
+}
+
+#coursereact .cadenas {
+  position: absolute;
+  width: 25px;
+  border-radius: 50%;
+  left: 260px;
+  top: 1300px;
+}
+
+#gatsby {
+  display: block;
+  background-color: white;
+  text-align: center;
+  box-shadow: -30px 30px -30px 30px rgb(0,.2,0,.2);
+}
+
+.gatsby {
+  position: absolute;
+  color: #a59f9e;
+  width: 200px;
+  height: 200px;
+  left: 420px;
+  top:960px;
+}
+
+#gatsby h2 {
+  position: absolute;
+  font-size: 10px;
+  color: #a59f9e;
+  left: 460px;
+  top: 1190px;
+}
+
+#gatsby h1 {
+  position:absolute;
+  font-size: 20px;
+  color: black;
+  left: 400px;
+  top: 1200px;
+}
+
+.user1 {
+  position: absolute;
+  width: 25px;
+  border-radius: 50%;
+  left: 390px;
+  top: 1300px;
+}
+
+#gatsby h3 {
+  position: absolute;
+  color: black;
+  font-size: small;
+  font-weight: normal;
+  left: 430px;
+  top: 1285px;
+}
+
+#gatsby h4 {
+  position: absolute;
+  color: #a59f9e;
+  font-size: x-small;
+  font-weight: normal;
+  left: 430px;
+  top: 1300px;
+}
+
+#gatsby .cadenas {
+  position: absolute;
+  width: 25px;
+  border-radius: 50%;
+  left: 595px;
+  top: 1300px;
+}
+
+#aws1 {
+  display: block;
+  background-color: white;
+  text-align: center;
+  top: 600px;
+  box-shadow: -30px 30px -30px 30px rgb(0,.2,0,.2);
+}
+
+.aws1 {
+  position: absolute;
+  color: #a59f9e;
+  width: 200px;
+  height: 200px;
+  left: 750px;
+  top: 960px;
+}
+
+#aws1 h2 {
+  position: absolute;
+  color: #a59f9e;
+  font-size: 10px;
+  left: 810px;
+  top: 1190px;
+}
+
+#aws1 h1 {
+  position:absolute;
+  font-size: 20px;
+  color: black;
+  left: 750px;
+  top: 1200px;
+}
+
+.user2 {
+  position: absolute;
+  width: 25px;
+  border-radius: 50%;
+  left: 745px;
+  top: 1300px;
+}
+
+#aws1 h3 {
+  position: absolute;
+  color: black;
+  font-size: small;
+  font-weight: normal;
+  left: 790px;
+  top: 1285px;
+}
+
+#aws1 h4 {
+  position: absolute;
+  color: #a59f9e;
+  font-size: x-small;
+  left: 790px;
+  top: 1300px;
+}
+
+#aws1 .cadenas {
+  position: absolute;
+  width: 25px;
+  border-radius: 50%;
+  left: 940px;
+  top: 1300px;
+}
+
+#postgres {
+    display: block;
+    background-color: white;
+    text-align: center;
+    box-shadow: -30px 30px -30px 30px rgb(0,.2,0,.2);
+}
+
+.postgres {
+  position: absolute;
+  color: #a59f9e;
+  width: 150px;
+  height: 150px;
+  left: 80px;
+  top: 1430px;
+}
+
+#postgres h2 {
+  position: absolute;
+  color: #a59f9e;
+  font-size: 10px;
+  left: 100px;
+  top: 1620px;
+}
+
+#postgres h1 {
+  position:absolute;
+  font-size: 20px;
+  color: black;
+  left: 70px;
+  top: 1630px;
+}
+
+.user3 {
+  position: absolute;
+  width: 25px;
+  border-radius: 50%;
+  left: 65px;
+  top: 1750px;
+}
+
+#postgres h3 {
+  position: absolute;
+  color: black;
+  font-size: small;
+  font-weight: normal;
+  left: 100px;
+  top: 1730px;
+}
+
+#postgres h4 {
+  position: absolute;
+  color: #a59f9e;
+  font-size: x-small;
+  font-weight: normal;
+  left: 100px;
+  top: 1750px;
+}
+
+#postgres .cadenas {
+  position: absolute;
+  width: 25px;
+  border-radius: 50%;
+  left: 220px;
+  top: 1750px;
+}
+
+#rxjs {
+  display: block;
+  background-color: white;
+  text-align: center;
+  box-shadow: -30px 30px -30px 30px rgb(0,.2,0,.2);
+}
+
+.rxjs {
+  position: absolute;
+  color: #a59f9e;
+  width: 150px;
+  height: 150px;
+  left: 320px;
+  top: 1430px;
+}
+
+#rxjs h2 {
+  position: absolute;
+  color: #a59f9e;
+  font-size: 10px;
+  left: 360px;
+  top: 1620px;
+}
+
+#rxjs h1 {
+  position:absolute;
+  font-size: 20px;
+  color: black;
+  left: 310px;
+  top: 1630px;
+}
+
+.user4 {
+  position: absolute;
+  width: 25px;
+  border-radius: 50%;
+  left: 300px;
+  top: 1750px;
+}
+
+#rxjs h3 {
+  position: absolute;
+  color: black;
+  font-size: small;
+  font-weight: normal;
+  left: 340px;
+  top: 1730px;
+}
+
+#rxjs h4 {
+  position: absolute;
+  color: #a59f9e;
+  font-size: x-small;
+  font-weight: normal;
+  left: 340px;
+  top: 1750px;
+}
+
+#rxjs .cadenas {
+  position: absolute;
+  width: 25px;
+  border-radius: 50%;
+  left: 470px;
+  top: 1750px;
+}
+
+#beginner {
+    display: block;
+    background-color: white;
+    text-align: center;
+    box-shadow: -30px 30px -30px 30px rgb(0,.2,0,.2);
+}
+
+.beginner {
+    position: absolute;
+    color: #a59f9e;
+    width: 150px;
+    height: 150px;
+    left: 580px;
+    top: 1420px;
+}
+
+#beginner h2 {
+    position: absolute;
+    color: #a59f9e;
+    font-size: 10px;
+    left: 610px;
+    top: 1620px;
+}
+
+#beginner h1 {
+    position:absolute;
+    font-size: 20px;
+    color: black;
+    left: 580px;
+    top: 1630px;
+}
+
+.user5 {
+  position: absolute;
+  width: 25px;
+  border-radius: 50%;
+  left: 560px;
+  top: 1750px;
+}
+
+#beginner h3 {
+  position: absolute;
+  color: black;
+  font-size: small;
+  font-weight: normal;
+  left: 600px;
+  top: 1730px;
+}
+
+#beginner h4 {
+  position: absolute;
+  color: #a59f9e;
+  font-size: x-small;
+  font-weight: normal;
+  left: 600px;
+  top: 1750px;
+}
+
+#beginner .cadenas1 {
+  position: absolute;
+  width: 25px;
+  border-radius: 50%;
+  left: 720px;
+  top: 1750px;
+}
+
+#rust {
+  display: block;
+  background-color: white;
+  text-align: center;
+  box-shadow: -30px 30px -30px 30px rgb(0,.2,0,.2);
+}
+
+.rust {
+  position: absolute;
+  color: #a59f9e;
+  width: 150px;
+  height: 150px;
+  left: 820px;
+  top: 1430px;
+}
+
+#rust h2 {
+  position: absolute;
+  color: #a59f9e;
+  font-size: 10px;
+  left: 855px;
+  top: 1620px;
+}
+
+#rust h1 {
+  position:absolute;
+  font-size: 20px;
+  color: black;
+  left: 810px;
+  top: 1630px;
+}
+
+.user6 {
+  position: absolute;
+  width: 25px;
+  border-radius: 50%;
+  left: 810px;
+  top: 1750px;
+}
+
+#rust h3 {
+  position: absolute;
+  color: black;
+  font-size: small;
+  font-weight: normal;
+  left: 850px;
+  top: 1730px;
+}
+
+#rust h4 {
+  position: absolute;
+  color: #a59f9e;
+  font-size: x-small;
+  font-weight: normal;
+  left: 850px;
+  top: 1750px;
+}
+#rust .cadenas1 {
+  position: absolute;
+  width: 25px;
+  border-radius: 50%;
+  left: 960px;
+  top: 1750px;
+}
