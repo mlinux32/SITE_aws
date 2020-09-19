@@ -8,3 +8,5 @@ et du CSS ainsi que d'y intégrer du Js et du PHP par la suite.
 
 Voilà mes objectifs...
 Au prochain chapitre
+
+Footer en construction
