@@ -20,6 +20,7 @@ body {
   max-width: 85rem;
   background-color: #151618;
   width: 100%;
+  height: 150px;
 }
 
 .line {
@@ -32,6 +33,7 @@ body {
 .egg {
   position: absolute;
   left: 20px;
+  top: 15px;
 }
 
 .egghead {
@@ -39,28 +41,28 @@ body {
   color: white;
   text-shadow: 1px 1px white;
   left: 45px;
-  top: 14px;
+  top: 25px;
 }
 
 .topics {
   position: absolute;
   color: #908780;
   left: 200px;
-  top: 14px;
+  top: 25px;
 }
 
 .searchc {
   position: absolute;
   color: #908780;
   left: 350px;
-  top: 14px;
+  top: 25px;
 }
 
 .sign {
   position: absolute;
   color: #908780;
   right: 40px;
-  top: 14px;
+  top: 25px;
 }
 
 #search {
@@ -73,9 +75,9 @@ body {
   border-radius: 5px;
   width: 973px;px;
   height: 48px;
-  padding-left: 5px;
+  padding-left: 10px;
   left: 28px;
-  top: 50px;
+  top: 90px;
 }
 
 .placeholder {
@@ -89,13 +91,13 @@ body {
   width: 48px;
   height: 48px;
   right: 31px;
-  top: 50px;
+  top: 90px;
 }
 
 .recherche {
   position: absolute;
   right: 6px;
-  top: 6px;
+  top: 10px;
 }
 
 /* accueil */
@@ -103,7 +105,7 @@ body {
   display: flex;
   background-color: #1e2633;
   width: auto;
-  height: 550px;
+  height: 500px;
 }
 
 #accueil h1 {
@@ -112,7 +114,7 @@ body {
   color: white;
   font-size: 38px;
   left: 50px;
-  top: 190px;
+  top: 230px;
 }
 
 #accueil h2 {
@@ -121,17 +123,17 @@ body {
   color: #a59f9e;
   font-size: 22px;
   left: 50px;
-  top: 340px;
+  top: 400px;
 }
 
 .aws {
   position: relative;
   flex-shrink: 2;
   justify-content: space-around;
-  width: 390px;
-  height: 390px;
+  width: 350px;
+  height: 350px;
   left: 600px;
-  top: 100px;
+  top: 60px;
 }
 
 #click {
@@ -143,12 +145,12 @@ body {
   width: 250px;
   height: 50px;
   margin: 70px;
-  top: 450px;
+  top: 470px;
 }
 
 #corps {
   background-color: #fff;
-  height: 2000px;
+  height: 1200px;
 }
 
 h1 {
@@ -638,4 +640,99 @@ h2 {
   border-radius: 50%;
   left: 960px;
   top: 1790px;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  
+}
+
+#fnavigation {
+  position: relative;
+  background-color: #151618;
+  width: 100%;
+  height: 500px;
+}
+
+.egglogo {
+  position: absolute;
+  left: 40px;
+  top: 100px;
+}
+
+.eggheadio {
+  position: absolute;
+  color: white;
+  text-shadow: 1px 1px white;
+  left: 65px;
+  top: 110px;
+}
+
+ul .one .two {
+  list-style-type: none;
+  color: #a59f9e;
+  font-size: normal;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.slc {
+  font-size: 18px;
+  color: #a59f9e;
+  left: 663px;
+  top: 180px;
+}
+
+#search1 {
+  display: flex;
+  align-self: center;
+  position: absolute;
+  color: white;
+  background-color: #212328;
+  border: none;
+  border-radius: 5px;
+  width: 320px;
+  height: 48px;
+  padding-left: 10px;
+  left: 663px;
+  top: 230px;
+}
+
+.placeholder {
+  color: #908780;
+}
+#button_search {
+  position: absolute;
+  background-color: #175ce0;
+  border: none;
+  border-radius: 5px;
+  width: 48px;
+  height: 48px;
+  right: 25px;
+  top: 230px;
+}
+
+.recherche1 {
+  position: absolute;
+  right: 8px;
+  top: 6px;
+}
+
+.terms {
+  color: #fff;
+  font-size: small;
+  font-weight: normal;
+  left: 40px;
+  top: 2250px;
+}
+
+.copy {
+  float: left;
+  font-size: small;
+  font-weight: normal;
+  color: #fff;
+  left: 250px;
+  top: 2250px;
 }
